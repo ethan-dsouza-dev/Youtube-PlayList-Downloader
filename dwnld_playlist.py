@@ -28,6 +28,8 @@ def download_playlist():
         except pytube.exceptions.AgeRestrictedError:
             print("This song is age restricted")
             continue
+        except FileExistsError:
+            print("This song already exists")
             
 
         out_file = vid.download(output_path=destination)
