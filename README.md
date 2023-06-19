@@ -8,3 +8,5 @@ A script that allows you to download your YouTube playlists into a single direct
 - Next you will be prompted for a destination path, press enter to create a new folder in the current working directory.
 - Messages will be displayed showing the progress of the download (working on adding more specific descriptions for Exceptional cases)
 - Once the download has completed you will find your songs in a folder with the name of your YouTube Playlist
+
+Please note, this script must only be used for personal use.
